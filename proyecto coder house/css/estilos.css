@@ -1,0 +1,1107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+header img{
+    width: 70px;
+    height: 70px;
+}
+
+
+
+.box-2 h1{
+    font-size: 30px;
+}
+.bar{
+    list-style: none;
+    font-size: 40px;
+    
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    }
+ul li a:hover{
+    color:rgb(255, 188, 13);
+    background-color:rgb(238, 236, 236);
+    border-radius: 10%;
+}
+.contenedor{
+    display: grid;
+    width: 576px;
+    height: 40vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    "box-1"
+    "box-2"
+    "box-3"
+
+    ;
+}
+
+.box-1{
+    display: flex;
+    justify-content: center;
+    
+    grid-area: box-1;
+}
+.box-2{
+    display: flex;
+    justify-content: center;
+    
+    grid-area: box-2;
+
+}
+
+.box-3{
+
+    display: flex;
+    justify-content: center;
+    grid-area: box-3;
+}
+
+
+.redes{
+    height:200px;
+    width: 576px;
+    display: flex;
+    background-color: rgb(255, 188, 13);
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Inter Tight', sans-serif;
+    }
+    
+.redes2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+    gap:30px;
+    margin-right: 30px;
+    width: 576px;
+
+}
+
+.redes3{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border-bottom: solid grey;
+    border-width: 1px;
+    width: 576px;
+}
+
+.button-ap{
+    height: 40px;
+    width: 180px;
+    font-size: 17px;
+}
+
+.button-ap:hover{
+    background-color: rgb(223, 227, 230);
+}
+
+.imagen-redes1{
+    height: 50%;
+    width: auto;
+}
+
+.imagen-redes2{
+    height: 40px;
+    width: 120px;
+} 
+
+.imagen-redes3{
+    height: 30px;
+    width: 30;
+}
+
+    .menu{
+    display: grid;
+    width: 576px;
+    height: ;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8,1fr);
+    grid-template-areas: 
+    "menu-menu1"
+    "menu-menu2"
+    "menu-menu3"
+    "menu-menu4"
+    "menu-menu5"
+    "menu-menu6"
+    "menu-menu7"
+    "menu-menu8"
+    ;
+    }
+
+    .titulo-main{
+    font-size: 35px;
+    margin-left: 30px;
+    
+    }
+
+.menu-menu1{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    margin: 20px 20px 20px 20px;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu1;
+    justify-self: center;
+}
+.menu-menu2{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu2;
+    justify-self: center;
+}
+.menu-menu3{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu3;
+    justify-self: center;
+}
+.menu-menu4{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu4;
+    justify-self: center;
+}
+.menu-menu5{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    margin: 20px 20px 20px 20px;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu5;
+    justify-self: center;
+}
+.menu-menu6{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu6;
+    justify-self: center;
+}
+.menu-menu7{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu7;
+    justify-self: center;
+}
+.menu-menu8{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu8;
+    justify-self: center;
+}
+.shop{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    align-items: center;
+    font-size: larger;
+    font-family:'Inter Tight', sans-serif ;
+    font-weight: 700;
+}
+.shop-imagen{
+    width:30px;
+    height: 30px;
+
+}
+
+.nosotros-principal{
+    font-size: larger;
+    
+}
+.articulo1{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.articulo1-imagen{
+    width: 0;
+    height: 0;
+}
+
+.articulo1-texto{
+    justify-self: center;
+    align-self: center;
+}
+
+.inicio-imagen{
+    width:100%;
+    margin-top: 30px;
+}
+
+.mapa-main{
+    width: 100%;
+    height: 700px;
+
+}
+
+.locales-main{
+    display: flex;
+    margin-bottom: 100px;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+@media (min-width: 768px){
+    .contenedor{
+        height: 30vh;
+        width: 768px;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(4,1fr);
+        grid-template-areas : 
+        "box-1 box-3 box-3"
+        "box-1 box-3 box-3"
+        "box-2 box-3 box-3"
+        "box-2 box-3 box-3"
+        
+        
+        
+        
+        
+        ;
+    }
+    .box-1{
+        padding-top: 20px;
+
+    }
+    .box-2{
+
+    }
+    .box-3{
+        display: flex;
+        justify-self: flex-end;
+        align-self: flex-end;
+        font-size:;
+        padding-bottom:95px;
+    }
+
+    .bar{
+        list-style: none;
+        font-size: 35px;
+        display: flex;
+        flex-direction: row-reverse; 
+        gap: 20px;
+        
+        
+        
+    }
+    .box-2 h1{
+        font-size: 35px;
+    }
+    .redes{
+        height:200px;
+        width: 100%;
+        display: flex;
+        background-color: rgb(255, 188, 13);
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 40px;
+        font-family: 'Inter Tight', sans-serif;
+        }
+        
+    .redes2{
+        margin-top: 40px;
+        display: flex;
+        justify-content: flex-end;
+        gap:30px;
+        margin-right: 30px;
+        width: 100%;
+    
+    }
+    
+    .redes3{
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        border-bottom: solid grey;
+        border-width: 1px;
+        width: 100%;
+    }
+    
+    .button-ap{
+        height: 40px;
+        width: 180px;
+        font-size: 17px;
+    }
+    
+    .imagen-redes1{
+        height: 50%;
+        width: auto;
+    }
+    
+    .imagen-redes2{
+        height: 40px;
+        width: 120px;
+    } 
+    
+    .imagen-redes3{
+        height: 30px;
+        width: 30;
+    }
+        .menu{
+    display: grid;
+    width: 768px;
+    height: ;
+    grid-template-columns: 2fr;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas: 
+    "menu-menu1 menu-menu2"
+    "menu-menu3 menu-menu4"
+    "menu-menu5 menu-menu6"
+    "menu-menu7 menu-menu8"
+    
+    ;
+    }
+
+
+.menu-menu1{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    margin: 20px 20px 20px 20px;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu1;
+    justify-self: center;
+}
+.menu-menu2{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu2;
+    justify-self: center;
+}
+.menu-menu3{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu3;
+    justify-self: center;
+}
+.menu-menu4{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu4;
+    justify-self: center;
+}
+.menu-menu5{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    margin: 20px 20px 20px 20px;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu5;
+    justify-self: center;
+}
+.menu-menu6{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu6;
+    justify-self: center;
+}
+.menu-menu7{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu7;
+    justify-self: center;
+}
+.menu-menu8{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu8;
+    justify-self: center;
+}
+}
+
+
+@media (min-width:992px){
+    .contenedor{
+        width: 992px;
+        height: 35vh ;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: repeat(4,1fr);
+        grid-template-areas: 
+        "box-1 box-1 box-3 box-3 box-3"
+        "box-1 box-1 box-3 box-3 box-3"
+        "box-2 box-2 box-3 box-3 box-3"
+        "box-2 box-2 box-3 box-3 box-3"
+        
+
+        ;
+    }
+    header img{
+        width: 100px;
+        height: 100px;
+    }
+
+.box-1{ margin-top: 30px
+}
+.box-2{
+    align-self: center;
+    
+}
+.box-3{
+    padding-bottom:55px;
+}
+
+.bar{
+    list-style: none;
+    font-size: 35px;
+    display: flex;
+    flex-direction: row-reverse; 
+    gap: 20px;
+    
+    
+    
+}
+.box-2 h1{
+    font-size: 50px;
+}
+.redes{
+    height:200px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 188, 13);
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Inter Tight', sans-serif;
+    }
+    
+.redes2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+    gap:30px;
+    margin-right: 30px;
+    width: 100%;
+
+}
+
+.redes3{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border-bottom: solid grey;
+    border-width: 1px;
+    width: 100%;
+    
+}
+
+.button-ap{
+    height: 40px;
+    width: 180px;
+    font-size: 17px;
+}
+
+.imagen-redes1{
+    height: 50%;
+    width: auto;
+}
+
+.imagen-redes2{
+    height: 40px;
+    width: 120px;
+} 
+
+.imagen-redes3{
+    height: 30px;
+    width: 30;
+}
+
+.menu{
+    display: grid;
+    width: 768px;
+    height: ;
+    grid-template-columns: 2fr;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas: 
+    "menu-menu1 menu-menu2"
+    "menu-menu3 menu-menu4"
+    "menu-menu5 menu-menu6"
+    "menu-menu7 menu-menu8"
+    
+    ;
+    }
+
+
+.menu-menu1{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    margin: 20px 20px 20px 20px;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu1;
+    justify-self: center;
+}
+.menu-menu2{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu2;
+    justify-self: center;
+}
+.menu-menu3{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu3;
+    justify-self: center;
+}
+.menu-menu4{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu4;
+    justify-self: center;
+}
+.menu-menu5{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    margin: 20px 20px 20px 20px;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu5;
+    justify-self: center;
+}
+.menu-menu6{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu6;
+    justify-self: center;
+}
+.menu-menu7{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu7;
+    justify-self: center;
+}
+.menu-menu8{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu8;
+    justify-self: center;
+}
+
+
+
+.articulo1{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+    
+
+
+
+
+.articulo1-imagen{
+    width: 600px;
+    height: 300px;
+}
+
+.articulo1-texto{
+    justify-self: center;
+    align-self: center;
+}
+
+.inicio-imagen{
+    width:100%;
+    margin-top: 30px;
+}
+
+}
+
+
+
+@media (min-width:1224px){
+
+    .contenedor{
+        width: 1224px;
+        height: 40vh ;
+        grid-template-columns: repeat(8,1fr);
+        grid-template-rows: repeat(5,1fr);
+        grid-template-areas: 
+        "box-1 box-1 box-1 box-3 box-3 box-3 box-3 box-3"
+        "box-1 box-1 box-1 box-3 box-3 box-3 box-3 box-3"
+        "box-1 box-1 box-1 box-3 box-3 box-3 box-3 box-3"
+        "box-2 box-2 box-2 box-3 box-3 box-3 box-3 box-3"
+        "box-2 box-2 box-2 box-3 box-3 box-3 box-3 box-3"
+        
+
+        ;
+    }
+    header img{
+        width: 120px;
+        height: 120px;
+    }
+    .box-1{
+        padding-top: 20px;
+
+    }
+    .box-2{
+
+    }
+    .box-3{
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom:50px; }
+
+
+
+.bar{
+    list-style: none;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row-reverse; 
+    gap: 30px;
+    
+    
+    
+}
+.box-2 h1{
+    font-size: 60px;
+}
+.redes{
+    height:200px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 188, 13);
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Inter Tight', sans-serif;
+    }
+    
+.redes2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+    gap:30px;
+    margin-right: 30px;
+    width: 100%;
+
+}
+
+.redes3{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border-bottom: solid grey;
+    border-width: 1px;
+    width: 100%;
+    
+}
+
+.button-ap{
+    height: 40px;
+    width: 180px;
+    font-size: 17px;
+}
+
+.imagen-redes1{
+    height: 50%;
+    width: auto;
+}
+
+.imagen-redes2{
+    height: 40px;
+    width: 120px;
+} 
+
+.imagen-redes3{
+    height: 30px;
+    width: 30;
+}
+.menu{
+    display: grid;
+    width: 1224px;
+    
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    "menu-menu1 menu-menu2 menu-menu3"
+    "menu-menu4 menu-menu5 menu-menu6"
+    "menu-menu7 menu-menu8 .        "
+    ;
+    }
+
+}
+.menu-menu1{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    margin: 20px 20px 20px 20px;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu1;
+    justify-self: center;
+}
+.menu-menu2{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu2;
+    justify-self: center;
+}
+.menu-menu3{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu3;
+    justify-self: center;
+}
+.menu-menu4{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu4;
+    justify-self: center;
+}
+.menu-menu5{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    margin: 20px 20px 20px 20px;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu5;
+    justify-self: center;
+}
+.menu-menu6{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu6;
+    justify-self: center;
+}
+.menu-menu7{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu7;
+    justify-self: center;
+}
+.menu-menu8{
+    background-color: rgb(255, 188, 13);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    grid-area: menu-menu8;
+    justify-self: center;
+}
+
+
+
+
+@media (min-width:1580px){
+
+    .contenedor{
+        width: 1600px;
+        height: 35vh ;
+        grid-template-columns: repeat(10,1fr);
+        grid-template-rows: repeat(5,1fr);
+        grid-template-areas: 
+        "box-1 box-1 box-1 box-1 box-3 box-3 box-3 box-3 box-3 box-3"
+        "box-1 box-1 box-1 box-1 box-3 box-3 box-3 box-3 box-3 box-3"
+        "box-1 box-1 box-1 box-1 box-3 box-3 box-3 box-3 box-3 box-3"
+        "box-2 box-2 box-2 box-2 box-3 box-3 box-3 box-3 box-3 box-3"
+        "box-2 box-2 box-2 box-2 box-3 box-3 box-3 box-3 box-3 box-3"
+        
+
+        ;
+    }
+    header img{
+        width: 125px;
+        height: 125px;
+    }
+    .box-1{
+        padding-top: 25px;
+
+    }
+    .box-2{
+
+    }
+    .box-3{
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom:45px; }
+
+
+
+.bar{
+    list-style: none;
+    font-size: 45px;
+    display: flex;
+    flex-direction: row-reverse; 
+    gap: 30px;
+    
+    
+    
+}
+.box-2 h1{
+    font-size: 70px;
+}
+.redes{
+    height:200px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 188, 13);
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Inter Tight', sans-serif;
+    }
+    
+.redes2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+    gap:30px;
+    margin-right: 30px;
+
+}
+
+.redes3{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border-bottom: solid grey;
+    border-width: 1px;
+    
+}
+
+.button-ap{
+    height: 40px;
+    width: 180px;
+    font-size: 17px;
+}
+
+.imagen-redes1{
+    height: 50%;
+    width: auto;
+}
+
+.imagen-redes2{
+    height: 40px;
+    width: 120px;
+} 
+
+.imagen-redes3{
+    height: 30px;
+    width: 30;
+}
+.menu{
+    display: grid;
+    width: 1580px;
+    
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: 
+    "menu-menu1 menu-menu2 menu-menu3 menu-menu4"
+    "menu-menu5 menu-menu6 menu-menu7 menu-menu8"
+    ;
+    }
+    .menu-menu1{
+        background-color: rgb(255, 188, 13);
+        width: 300px;
+        height: 300px;
+        border-radius: 10%;
+        margin: 20px 20px 20px 20px;
+        box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+        grid-area: menu-menu1;
+        justify-self: center;
+    }
+    .menu-menu2{
+        background-color: rgb(255, 188, 13);
+        width: 300px;
+        height: 300px;
+        margin: 20px 20px 20px 20px;
+        border-radius: 10%;
+        box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+        grid-area: menu-menu2;
+        justify-self: center;
+    }
+    .menu-menu3{
+        background-color: rgb(255, 188, 13);
+        width: 300px;
+        height: 300px;
+        margin: 20px 20px 20px 20px;
+        border-radius: 10%;
+        box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+        grid-area: menu-menu3;
+        justify-self: center;
+    }
+    .menu-menu4{
+        background-color: rgb(255, 188, 13);
+        width: 300px;
+        height: 300px;
+        margin: 20px 20px 20px 20px;
+        border-radius: 10%;
+        box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+        grid-area: menu-menu4;
+        justify-self: center;
+    }
+    .menu-menu5{
+        background-color: rgb(255, 188, 13);
+        width: 300px;
+        height: 300px;
+        border-radius: 10%;
+        margin: 20px 20px 20px 20px;
+        box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+        grid-area: menu-menu5;
+        justify-self: center;
+    }
+    .menu-menu6{
+        background-color: rgb(255, 188, 13);
+        width: 300px;
+        height: 300px;
+        margin: 20px 20px 20px 20px;
+        border-radius: 10%;
+        box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+        grid-area: menu-menu6;
+        justify-self: center;
+    }
+    .menu-menu7{
+        background-color: rgb(255, 188, 13);
+        width: 300px;
+        height: 300px;
+        margin: 20px 20px 20px 20px;
+        border-radius: 10%;
+        box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+        grid-area: menu-menu7;
+        justify-self: center;
+    }
+    .menu-menu8{
+        background-color: rgb(255, 188, 13);
+        width: 300px;
+        height: 300px;
+        margin: 20px 20px 20px 20px;
+        border-radius: 10%;
+        box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+        grid-area: menu-menu8;
+        justify-self: center;
+    }
+    
+    
+    }
+
+
+
+
